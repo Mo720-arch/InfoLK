@@ -1,0 +1,7 @@
+#BlueJ class context
+#Tue Aug 25 15:16:55 CEST 2026
+comment0.target=W\u00FCrfel
+comment0.text=\r\n Beschreiben Sie hier die Klasse W\u00FCrfel.\r\n \r\n @author (Ihr Name) \r\n @version (eine Versionsnummer oder ein Datum)\r\n
+comment1.target=W\u00FCrfel()
+comment2.target=int wurf()
+numComments=3

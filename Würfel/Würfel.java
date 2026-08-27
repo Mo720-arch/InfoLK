@@ -16,7 +16,7 @@ public class Würfel
         seiten = s;
     }
     
-    public wurf(){
+    public void wurf(){
         augenzahl = new java.util.Random().nextInt(seiten) + 1;
     }
 }

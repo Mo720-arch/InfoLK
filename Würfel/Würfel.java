@@ -8,13 +8,15 @@
 public class Würfel
 {
     int augenzahl;
-    Würfel(){
+    int seiten;
+
+    Würfel(int s){
         
-        augenzahl = new java.util.Random().nextInt(6) + 1;
+        augenzahl = new java.util.Random().nextInt(s) + 1;
+        seiten = s;
     }
     
-    public int wurf(){
-        augenzahl = new java.util.Random().nextInt(6) + 1;
-        return augenzahl;
+    public wurf(){
+        augenzahl = new java.util.Random().nextInt(seiten) + 1;
     }
 }
